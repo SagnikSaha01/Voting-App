@@ -3,7 +3,10 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require("body-parser");
 
-const handle = require('C://Users//Swagnik//Desktop//Voting-App//server//handlers');
+const db = require('C://Users//someone//Desktop//New folder//Voting-App//server//models');
+const handle = require('C://Users//someone//Desktop//New folder//Voting-App//server//handlers');
+
+
 
 const app = express();
 const port = process.env.PORT;
